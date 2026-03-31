@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This template was produced by Sebastian Dows-Miller, based on a version by Giulia D'Agostino.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+<!--FOR THIS SESSION YOU CAN IGNORE THE HEADER -->
+
+    <text>
+        <body>
+            
+            <head></head> <!-- include the title of the poem here -->
+                
+            <lg> <!-- using attributes, indicate that this is the first stanza -->
+                    
+                <l></l> <!-- include the first line of the poem here -->
+                    
+                <l></l> <!-- copy and paste this for additional lines -->
+                    
+            </lg>
+                
+            <lg> <!-- copy and paste this for additional stanzas -->
+                    
+                <l></l>
+                    
+            </lg>
+            
+        </body>
+    </text>
+</TEI>

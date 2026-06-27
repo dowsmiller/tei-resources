@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <!-- 
     You probably won't have the necessary information for all of the below fields.
@@ -50,12 +49,12 @@
                 <textLang mainLang=""></textLang> <!-- Use ISO codes in the attribute -->
 
                 <msItem n="">
-                <title></title>
-                <locus from="" to=""></locus> <!-- The folios occupied by the item -->
-                <note></note> <!-- Add any context or background information -->
-                <incipit></incipit> <!-- Opening words -->
-                <explicit></explicit> <!-- Closing words -->
-                <!-- Optionally add <rubric> and <ref> elements -->
+                    <locus from="" to=""></locus> <!-- The folios occupied by the item -->
+                    <title></title> <!-- The title of the item -->
+                    <note></note> <!-- Add any context or background information -->
+                    <incipit></incipit> <!-- Opening words -->
+                    <explicit></explicit> <!-- Closing words -->
+                    <!-- Optionally add <rubric> and <ref> elements -->
                 </msItem>
 
                 <!-- Repeat <msItem> for each item in the manuscript -->

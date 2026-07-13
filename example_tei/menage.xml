@@ -35,7 +35,8 @@
     
     <text>
         <body>
-            <pb n="226v" xml:id="f226v" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52516597g/canvas/f462"/><div type="text" n="56" xml:id="Menage">
+            <pb n="226v" xml:id="f226v" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52516597g/canvas/f462"/>
+            <div type="text" n="56" xml:id="Menage">
                 <sp who="lover">
                     <lg>
                         <l rend="decoratedInitial decoInitblue" xml:id="l-226v-1-3"><choice><orig>BOnne</orig><reg>Bonne</reg></choice> gent<choice><orig/><reg>,</reg></choice><seg> </seg><choice><abbr>entēdez</abbr><expan>ente<ex>n</ex>dez</expan></choice><lb/>
